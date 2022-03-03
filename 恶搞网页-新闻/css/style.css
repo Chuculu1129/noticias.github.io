@@ -1,0 +1,534 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* 头框上 */
+header{
+    background-color: #fdfdfd;
+    width: 70%;
+    margin:auto;
+  
+  
+}
+
+
+
+header img{
+    width: 80px;
+}
+
+nav #boxes{
+    float: right;
+    display: flex;
+    align-items: center;
+ 
+  
+
+}
+
+nav{
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.box-1 {
+  
+    margin-right: 30px;
+  
+
+}
+
+
+ .box-2 , .box-3{
+    border-left: 1px solid rgb(202, 200, 200);
+}
+
+.box-1 a{
+    text-decoration: none;
+    color:black;
+
+}
+
+/* 头框下 */
+
+.enlaces a{
+    text-decoration:none ;
+    color:black;
+    margin-left: 25px;
+    margin-right: 25px;
+ 
+    
+ 
+    
+
+}
+
+.enlaces{
+    border-bottom: 1px solid rgb(202, 200, 200);
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+/* 广告 */
+
+.anuncio img{
+    width: 700px;
+}
+
+.anuncio{
+    display: flex;
+  
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* 收音机 */
+
+#radio{
+    background-color: rgb(110, 98, 119);
+
+   
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 80px;
+    width: 70%;
+    margin: auto;
+ 
+ 
+ 
+  
+    
+}
+
+/* 收音机左 */
+
+#radio .box-1{
+    color: white;
+}
+
+#radio .box-11{
+    float: left;
+    
+
+
+}
+
+
+
+
+#radio .box-1 img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 28px;
+    left: 10px;
+}
+
+#radio .box-12{
+    float: left;
+    margin-left: 30px;
+}
+
+
+/* 收音机右 */
+
+#radio .box-2{
+    background-color: white;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/* 新闻1 */
+
+
+
+#noticia{
+   
+    padding-top:15px;
+
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+
+    
+    
+      
+}
+
+
+.noticia1{
+    
+
+    padding: 20px;
+    
+ 
+
+ 
+}
+
+.noticia1 img{
+    width: 100%;
+}
+
+.noticia2{
+   
+    padding: 20px;
+    
+
+}
+
+.noticia2 img{
+    width: 100%;
+
+}
+
+#noticia a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #27294d;;
+  
+   
+
+    
+}
+
+#noticia p{
+    font-size: 20px;
+   
+}
+
+#noticia h1{
+    margin: 5px;
+}
+
+a:hover h1{
+    text-decoration: underline;
+
+}
+
+
+/* 世界新闻 */
+
+.encabezado{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+
+.encabezado h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(38, 38, 184);
+}
+
+
+#mundo{
+    width: 70%;
+    margin:auto;
+    display: flex;
+   
+  
+}
+
+.box img{
+    width: 100%;
+
+}
+
+.box{
+    padding: 20px;
+   
+ 
+}
+
+.box h2{
+  
+    color: #1c1e5a;
+    font-size: 21px;
+}
+
+.box a{
+    text-decoration: none;
+
+}
+
+.box p{
+    color: rgb(28, 28, 242);
+}
+
+/* 地球入侵 */
+
+#proceso{
+  
+    display: flex;
+    
+  
+}
+
+.invacion{
+    width: 70%;
+    margin:auto;
+
+}
+
+.invacion h1{
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(38, 38, 184);
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+/* 宇宙新闻 */
+
+.universo{
+    width: 70%;
+    margin: auto;
+}
+
+#universo-1{
+    display: flex;
+
+}
+
+#universo-1 img{
+    width: 100%;
+}
+
+.caja{
+    padding: 20px;
+}
+
+.caja a{
+    text-decoration: none;
+    color:  #27294d;
+}
+
+.caja p{
+    color: rgb(28, 28, 242);
+}
+
+.universo h1{
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(38, 38, 184);
+}
+
+/* 结尾 */
+
+
+
+#cajon{
+    display: flex;
+    background-color: #1c5bae;   
+    width: 70%;
+    margin: auto;
+    color: white;
+
+
+
+}
+
+.caja1 img{
+    width: 80px;
+    float: left ;
+    border-radius: 40px;
+
+}
+
+.caja1{
+    margin-right: 200px;
+}
+
+.caja1 p{
+    float: left;
+    margin-left: 10px;
+  
+}
+
+.caja2 p{
+    float: left;
+    margin-top: 0px;
+}
+
+.caja2 a{
+    
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+
+
+   
+
+}
+
+.caja2{
+    padding-top: 16px;
+}
+
+
+.cola2{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.cola2 a{
+    text-decoration: none;
+    color:  #1c5bae;
+}
+
+
+
+
+
+
+/* 小屏幕设计-1000像素之下 */
+
+
+@media(max-width:1000px) {
+    header{
+        width: 100%;
+
+    }
+
+    .enlaces a{
+        margin-left: 8px;
+        margin-right: 8px;
+     
+    }
+
+    #radio{
+        width: 96%;
+        margin: auto;
+
+    }
+
+    #noticia{
+        width: 100%;
+
+    }
+
+    
+    #mundo{
+        width: 100%;
+  
+    }
+
+    .encabezado{
+        width: 100%;
+    }
+
+    .invacion{
+        width: 100%;
+    }
+
+    .universo{
+        width: 100%;
+    }
+
+    #cajon{
+        width: 96%;
+        margin: auto;
+
+    }
+
+    .caja1 p{
+        visibility: hidden;
+        display: none;
+    }
+
+    #cajon{
+        flex-direction: column;
+        align-items: center;
+    }
+
+ 
+
+
+ 
+}
+
+/* 手机屏幕 */
+
+@media(max-width:768px){
+    #boxes .box-1{
+        visibility: collapse;
+        display: none;
+
+    }
+
+    .enlaces{
+        visibility: hidden;
+        display: none;
+    }
+
+    
+    .anuncio img{
+        width:98%;
+    }
+    #radio{
+        visibility: hidden;
+        display: none;
+        
+        
+    }
+
+    #radio .box-2{
+        display: none;
+        visibility: hidden;
+    }
+
+    #noticia{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* 世界新闻 */
+
+    #mundo{
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 41%;
+    }
+
+    /* 地球入侵 */
+
+    #proceso{
+        flex-wrap: wrap;
+    }
+
+
+
+   
+
+
+
+    /* 宇宙新闻 */
+
+    #universo-1{
+        flex-direction: column;
+    }
+
+    /* 结尾 */
+
+    .cola{
+        font-size: 12px;
+    }
+
+
+
+   
+}
